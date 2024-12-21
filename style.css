@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: 'Roboto', Arial, sans-serif;
+    min-height: 100vh; /* Sayfa boyutunun en az ekran yüksekliğine ulaşmasını sağlıyor */
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3 {
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Footer'ın en alt kısma yerleşmesini sağlar */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    flex-grow: 1; /* Sayfanın geri kalan kısmının içerik tarafından doldurulmasını sağlar */
+}
